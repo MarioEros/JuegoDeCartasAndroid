@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="MazoBlancoJack">
+        <item>@drawable/b1</item>
+        <item>@drawable/b2</item>
+        <item>@drawable/b3</item>
+        <item>@drawable/b4</item>
+        <item>@drawable/b5</item>
+        <item>@drawable/b6</item>
+        <item>@drawable/b7</item>
+        <item>@drawable/b8</item>
+        <item>@drawable/b9</item>
+        <item>@drawable/b0</item>
+        <item>@drawable/bj</item>
+        <item>@drawable/bq</item>
+        <item>@drawable/bk</item>
+    </array>
+    <array name="MazoBlancoSiete">
+        <item>@drawable/b1</item>
+        <item>@drawable/b2</item>
+        <item>@drawable/b3</item>
+        <item>@drawable/b4</item>
+        <item>@drawable/b5</item>
+        <item>@drawable/b6</item>
+        <item>@drawable/b7</item>
+        <item>@drawable/bm</item>
+        <item>@drawable/bm</item>
+        <item>@drawable/bm</item>
+    </array>
+    <array name="MazoVerdeJack">
+        <item>@drawable/v1</item>
+        <item>@drawable/v2</item>
+        <item>@drawable/v3</item>
+        <item>@drawable/v4</item>
+        <item>@drawable/v5</item>
+        <item>@drawable/v6</item>
+        <item>@drawable/v7</item>
+        <item>@drawable/v8</item>
+        <item>@drawable/v9</item>
+        <item>@drawable/v0</item>
+        <item>@drawable/vj</item>
+        <item>@drawable/vq</item>
+        <item>@drawable/vk</item>
+    </array>
+    <array name="MazoVerdeSiete">
+        <item>@drawable/v1</item>
+        <item>@drawable/v2</item>
+        <item>@drawable/v3</item>
+        <item>@drawable/v4</item>
+        <item>@drawable/v5</item>
+        <item>@drawable/v6</item>
+        <item>@drawable/v7</item>
+        <item>@drawable/vm</item>
+        <item>@drawable/vm</item>
+        <item>@drawable/vm</item>
+    </array>
+    <array name="MazoRojoJack">
+        <item>@drawable/r1</item>
+        <item>@drawable/r2</item>
+        <item>@drawable/r3</item>
+        <item>@drawable/r4</item>
+        <item>@drawable/r5</item>
+        <item>@drawable/r6</item>
+        <item>@drawable/r7</item>
+        <item>@drawable/r8</item>
+        <item>@drawable/r9</item>
+        <item>@drawable/r0</item>
+        <item>@drawable/rj</item>
+        <item>@drawable/rq</item>
+        <item>@drawable/rk</item>
+    </array>
+    <array name="MazoRojoSiete">
+        <item>@drawable/r1</item>
+        <item>@drawable/r2</item>
+        <item>@drawable/r3</item>
+        <item>@drawable/r4</item>
+        <item>@drawable/r5</item>
+        <item>@drawable/r6</item>
+        <item>@drawable/r7</item>
+        <item>@drawable/rm</item>
+        <item>@drawable/rm</item>
+        <item>@drawable/rm</item>
+    </array>
+    <array name="MazoNegroJack">
+        <item>@drawable/n1</item>
+        <item>@drawable/n2</item>
+        <item>@drawable/n3</item>
+        <item>@drawable/n4</item>
+        <item>@drawable/n5</item>
+        <item>@drawable/n6</item>
+        <item>@drawable/n7</item>
+        <item>@drawable/n8</item>
+        <item>@drawable/n9</item>
+        <item>@drawable/n0</item>
+        <item>@drawable/nj</item>
+        <item>@drawable/nq</item>
+        <item>@drawable/nk</item>
+    </array>
+    <array name="MazoNegroSiete">
+        <item>@drawable/n1</item>
+        <item>@drawable/n2</item>
+        <item>@drawable/n3</item>
+        <item>@drawable/n4</item>
+        <item>@drawable/n5</item>
+        <item>@drawable/n6</item>
+        <item>@drawable/n7</item>
+        <item>@drawable/nm</item>
+        <item>@drawable/nm</item>
+        <item>@drawable/nm</item>
+    </array>
+    <array name="MazoAzulJack">
+        <item>@drawable/a1</item>
+        <item>@drawable/a2</item>
+        <item>@drawable/a3</item>
+        <item>@drawable/a4</item>
+        <item>@drawable/a5</item>
+        <item>@drawable/a6</item>
+        <item>@drawable/a7</item>
+        <item>@drawable/a8</item>
+        <item>@drawable/a9</item>
+        <item>@drawable/a0</item>
+        <item>@drawable/aj</item>
+        <item>@drawable/aq</item>
+        <item>@drawable/ak</item>
+    </array>
+    <array name="MazoAzulSiete">
+        <item>@drawable/a1</item>
+        <item>@drawable/a2</item>
+        <item>@drawable/a3</item>
+        <item>@drawable/a4</item>
+        <item>@drawable/a5</item>
+        <item>@drawable/a6</item>
+        <item>@drawable/a7</item>
+        <item>@drawable/am</item>
+        <item>@drawable/am</item>
+        <item>@drawable/am</item>
+    </array>
+    <array name="IconosMagia">
+        <item>@drawable/icoblanco</item>
+        <item>@drawable/icoverde</item>
+        <item>@drawable/icorojo</item>
+        <item>@drawable/iconegro</item>
+        <item>@drawable/icoazul</item>
+    </array>
+</resources>

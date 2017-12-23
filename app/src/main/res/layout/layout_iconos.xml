@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Layout que indica al jugador con que 4 palos va a jugar-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <GridLayout
+        android:id="@+id/IconosGrid"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+        <ImageView
+            android:id="@+id/ico0"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icoazul"/>
+        <ImageView
+            android:id="@+id/ico1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icoazul"/>
+        <ImageView
+            android:id="@+id/ico2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icoazul"/>
+        <ImageView
+            android:id="@+id/ico3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icoazul"/>
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.juegocartas.duckstructors.juegodecartas.Tapete"
+    android:background="@color/tapete"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <!--Layout de juego-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Spinner
+                android:id="@+id/JuegoSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </Spinner>
+            <!-- Checkbox viejo
+            <CheckBox
+                android:id="@+id/CheckSiete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siete y media"
+                android:textAppearance="@style/textito"
+                android:onClick="Siete"/>
+            <CheckBox
+                android:id="@+id/CheckBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BlackJack"
+                android:textAppearance="@style/textito"
+                android:onClick="Black"
+                android:layout_marginLeft="50dp"/>
+                -->
+        </LinearLayout>
+
+        <!--Layout que contiene los 2 grids-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <!--Layout Banca-->
+                <LinearLayout
+                    android:id="@+id/tapeteBanca"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_zonas"
+                    android:gravity="center">
+                    <RelativeLayout
+                        android:id="@+id/tapeteCartasBanca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <!--Layout Jugador-->
+                <LinearLayout
+                    android:id="@+id/tapeteJugador"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_zonas"
+                    android:gravity="center">
+                    <RelativeLayout
+                        android:id="@+id/tapeteCartasJugador"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Layout Mazo-->
+            <LinearLayout
+                android:id="@+id/tapeteMazo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_zonas"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/z"
+                    android:onClick="PedirCarta"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Mazo"
+                    android:textAppearance="@style/textito"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--Layout Botones-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!--Layout Puntos Jugador-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_zonas"
+            android:padding="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Jugador:"
+                android:textAppearance="@style/textito"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/puntosJugador"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/textoPuntos"
+                android:gravity="center"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/BotonPedir"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ico_pedir"
+            android:onClick="PedirCarta"/>
+        <ImageButton
+            android:id="@+id/BotonPasar"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ico_pasar"
+            android:onClick="Pasar"/>
+        <ImageButton
+            android:id="@+id/BotonNuevaPartida"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ico_nueva_partida"
+            android:onClick="PartidaNueva"/>
+
+
+        <!--Layout Puntos Banca-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_zonas"
+            android:padding="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Banca:"
+                android:textAppearance="@style/textito"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/puntosBanca"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/textoPuntos"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
